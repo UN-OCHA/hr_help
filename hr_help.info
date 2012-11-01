@@ -1,0 +1,5 @@
+name = HumanitarianResponse Help
+core = 7.x
+package = Humanitarianresponse
+dependencies[] = advanced_help
+features[features_api][] = api:1
