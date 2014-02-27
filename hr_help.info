@@ -1,5 +1,9 @@
-name = HumanitarianResponse Help
+name = Help
+description = Help features of Humanitarianresponse 2.x
 core = 7.x
 package = Humanitarianresponse
-dependencies[] = advanced_help
-features[features_api][] = api:1
+dependencies[] = bootstrap_tour
+dependencies[] = ctools
+features[bootstrap_tour][] = registering_on_humanitarianresponse
+features[ctools][] = bootstrap_tour:bootstrap_tour_tour:1
+features[features_api][] = api:2
