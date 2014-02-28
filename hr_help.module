@@ -40,7 +40,7 @@ function hr_help_block_view($delta = '') {
           </button>
           <ul class="dropdown-menu">';
         foreach ($tours as $key => $tour) {
-          $block['content'] .= '<li>'.l(t($tour->title), $tour->steps[0]['path']).'</li>';
+          $block['content'] .= '<li>'.l(t($tour->title), $tour->steps[0]['path'], array('query' => array('tour' => $key))).'</li>';
         }
         $block['content'] .= '</ul></div>';
       }
