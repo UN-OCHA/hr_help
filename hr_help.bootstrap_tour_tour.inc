@@ -292,7 +292,7 @@ function hr_help_default_bootstrap_tour() {
       'path' => '',
       'placement' => 'top',
       'title' => 'Timezone',
-      'content' => '<p>Please select the timezone you usually work in. This is very important !</p>',
+      'content' => '<p>Please select the timezone you usually work in. This is very important if you want to have the events of the site shown in your timezone !</p>',
       'format' => 'panopoly_wysiwyg_text',
     ),
     10 => array(
