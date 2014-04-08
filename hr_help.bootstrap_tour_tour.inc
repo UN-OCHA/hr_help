@@ -464,7 +464,7 @@ function hr_help_default_bootstrap_tour() {
   $bootstrap_tour->name = 'managing_a_space';
   $bootstrap_tour->title = 'Managing a space';
   $bootstrap_tour->roles = '2';
-  $bootstrap_tour->autorun = 0;
+  $bootstrap_tour->autorun = 1;
   $bootstrap_tour->description = '';
   $bootstrap_tour->steps = array(
     0 => array(
@@ -472,7 +472,7 @@ function hr_help_default_bootstrap_tour() {
       'path' => 'sandbox',
       'placement' => 'top',
       'title' => 'How to manage a space ?',
-      'content' => '<p>This tour will walk you through the different options you have when you are a manager of a space. Go on to Anatomy of a space.</p>',
+      'content' => '<p>This tour will walk you through the different options you have when you are a manager of a space. Let\'s start with <a href="/sandbox?tour=anatomy_of_a_space">Anatomy of a space</a>.</p>',
       'format' => 'panopoly_wysiwyg_text',
     ),
   );
@@ -672,7 +672,8 @@ function hr_help_default_bootstrap_tour() {
       'path' => 'group/node/1506/admin/menus/menu-og-1506/add',
       'placement' => 'top',
       'title' => 'Adding a menu link',
-      'content' => '<p>To add a menu link, you will be presented with this form. From here you can enter the menu link title, its path and select a few options. If you want to enter a menu item with no link (in order to separate your menu items), in the path field, enter <em>&lt;nolink&gt;</em> and make sure that you check the "Show as expanded" checkbox.</p>',
+      'content' => '<p>To add a menu link, you will be presented with this form. From here you can enter the menu link title, its path and select a few options.</p>
+<p>If you want to enter a menu item with no link (in order to separate your menu items), in the path field, enter <em>&lt;nolink&gt;</em> and make sure that you check the "Show as expanded" checkbox.</p>',
       'format' => 'panopoly_wysiwyg_text',
     ),
     11 => array(
@@ -680,7 +681,7 @@ function hr_help_default_bootstrap_tour() {
       'path' => 'sandbox/group',
       'placement' => 'top',
       'title' => 'That\'s it !',
-      'content' => '<p>That\'s it for the space functionalities. You should now be able to manage your space menu, manage members within your space and enable/disable features. If you still have questions, feel free to write to <a href="mailto:help@humanitarianresponse.info">help@humanitarianresponse.info</a>.</p>',
+      'content' => '<p>That\'s it for the space functionalities.</p> <p>You should now be able to manage your space menu, manage members within your space and enable/disable features. If you still have questions, feel free to write to <a href="mailto:help@humanitarianresponse.info">help@humanitarianresponse.info</a>.</p>',
       'format' => 'panopoly_wysiwyg_text',
     ),
   );
