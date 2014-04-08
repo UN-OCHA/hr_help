@@ -13,6 +13,230 @@ function hr_help_default_bootstrap_tour() {
   $bootstrap_tour = new stdClass();
   $bootstrap_tour->disabled = FALSE; /* Edit this to true to make a default bootstrap_tour disabled initially */
   $bootstrap_tour->api_version = 1;
+  $bootstrap_tour->name = 'adding_content';
+  $bootstrap_tour->title = 'Adding content';
+  $bootstrap_tour->roles = '2';
+  $bootstrap_tour->autorun = 0;
+  $bootstrap_tour->description = '';
+  $bootstrap_tour->steps = array(
+    0 => array(
+      'selector' => '',
+      'path' => 'sandbox',
+      'placement' => 'top',
+      'title' => 'Adding content',
+      'content' => '<p>Adding content to your space is very simple. Follow the steps !</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    1 => array(
+      'selector' => '#block-hr-layout-hr-layout-create-links',
+      'path' => '',
+      'placement' => 'left',
+      'title' => 'Click here',
+      'content' => '<p>Click on the + sign and select the type of content that you want to add.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    2 => array(
+      'selector' => '',
+      'path' => '',
+      'placement' => 'top',
+      'title' => 'Editing content',
+      'content' => '<p>To edit content, simply navigate to the content you want to edit, and click on the "Edit" tab.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    3 => array(
+      'selector' => '',
+      'path' => 'sandbox/content',
+      'placement' => 'top',
+      'title' => 'Viewing content',
+      'content' => '<p>To find the content you want to edit, you can navigate directly within the space, or you can use this "Content" tab, to filter the content by type.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+  );
+  $export['adding_content'] = $bootstrap_tour;
+
+  $bootstrap_tour = new stdClass();
+  $bootstrap_tour->disabled = FALSE; /* Edit this to true to make a default bootstrap_tour disabled initially */
+  $bootstrap_tour->api_version = 1;
+  $bootstrap_tour->name = 'anatomy_of_a_space';
+  $bootstrap_tour->title = 'Anatomy of a space';
+  $bootstrap_tour->roles = '2';
+  $bootstrap_tour->autorun = 0;
+  $bootstrap_tour->description = '';
+  $bootstrap_tour->steps = array(
+    0 => array(
+      'selector' => '',
+      'path' => 'sandbox',
+      'placement' => 'top',
+      'title' => 'Anatomy of a space',
+      'content' => '<p>This tour will show you how a space is structured and how it works, along with some special tips for space managers. Follow the steps !</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    1 => array(
+      'selector' => '',
+      'path' => '',
+      'placement' => 'top',
+      'title' => 'Enter the Sandbox space',
+      'content' => '<p>Here is the sandbox space, which allows you, as a space manager, to play with a space features without breaking anything on your own space. Let\'s see how it is structured.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    2 => array(
+      'selector' => '#hr-space-tab',
+      'path' => '',
+      'placement' => 'bottom',
+      'title' => 'Space tab',
+      'content' => '<p>In this part of the screen, you will find the space tab. This tab tells your visitors in which space they are and allows them to go back to the space initial page at any time, but also gives them a dropdown menu to navigate back to the main sections of the site. The title of this tab is the same as the title of your space.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    3 => array(
+      'selector' => '#navigation',
+      'path' => '',
+      'placement' => 'bottom',
+      'title' => 'Horizontal menu',
+      'content' => '<p>The horizontal menu gives your visitors access to the different standard features provided by the space. These features can be activated or deactivated for each space, which is why you won\'t find the same set of features on each space.</p>
+<p>The layout and structure of these pages is standard amongst all spaces and can not be customized. The reason for this is to allow each visitor to find the same kind of structure across all spaces.</p>
+<p>You can NOT customize this menu. The links are enabled or disabled by enabling or disabling the features available for your space.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    4 => array(
+      'selector' => '#block-hr-notifications-hr-follow',
+      'path' => '',
+      'placement' => 'right',
+      'title' => 'Follow button',
+      'content' => '<p>The Follow button will allow your visitors, in the future, to receive email notifications every time a new content is added or edited within your space.</p>
+<p>Currently, the follow button can be connected to Mailchimp to allow your visitors to subscribe to your Mailchimp list simply by clicking on this button.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    5 => array(
+      'selector' => '#block-hr-layout-hr-layout-space-links',
+      'path' => '',
+      'placement' => 'right',
+      'title' => 'Contact information',
+      'content' => '<p>This part of the screen allows you to bring forward your social media (Facebook, Twitter etc...) and contact information (email), making it easy and clear to your visitors how to contact you.</p>
+<p>Your space also comes with an <a href="http://www.digitaltrends.com/how-to/how-to-use-rss/">RSS feed</a>, which your visitors can use to follow you through their RSS reader.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    6 => array(
+      'selector' => '#block-og-menu-og-single-menu-block',
+      'path' => '',
+      'placement' => 'right',
+      'title' => 'Vertical menu',
+      'content' => '<p>The vertical menu is yours. You can customize it in whatever way you want, adding whatever custom pages you wish. It will appear on all static pages of your space.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    7 => array(
+      'selector' => '',
+      'path' => '',
+      'placement' => 'top',
+      'title' => 'That\'s it !',
+      'content' => '<p>That\'s it for this tour. To understand how to customize the different elements presented in this tour (ie social media links, Mailchimp, menu etc...), follow the "Edit tab" tour.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+  );
+  $export['anatomy_of_a_space'] = $bootstrap_tour;
+
+  $bootstrap_tour = new stdClass();
+  $bootstrap_tour->disabled = FALSE; /* Edit this to true to make a default bootstrap_tour disabled initially */
+  $bootstrap_tour->api_version = 1;
+  $bootstrap_tour->name = 'edit_tab';
+  $bootstrap_tour->title = 'Edit tab';
+  $bootstrap_tour->roles = '2';
+  $bootstrap_tour->autorun = 0;
+  $bootstrap_tour->description = '';
+  $bootstrap_tour->steps = array(
+    0 => array(
+      'selector' => '.nav-tabs .primary',
+      'path' => 'sandbox',
+      'placement' => 'top',
+      'title' => 'Edit tab',
+      'content' => '<p>This tour will show you how to use the "Edit" tab of your space, in order to edit your space information.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    1 => array(
+      'selector' => '#edit-title-field',
+      'path' => 'sandbox/edit',
+      'placement' => 'top',
+      'title' => 'Space Title',
+      'content' => '<p>You can change the space title here. If you do so however, remember that this will also change the title of the space tab that appears in the top left corner of the site.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    2 => array(
+      'selector' => '#edit-field-space-type',
+      'path' => '',
+      'placement' => 'top',
+      'title' => 'Space Type',
+      'content' => '<p>You shouldn\'t need to change this. If you feel like you do, please write to <a href="mailto:help@humanitarianresponse.info">help@humanitarianresponse.info</a> before.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    3 => array(
+      'selector' => '#edit-field-space-category',
+      'path' => '',
+      'placement' => 'top',
+      'title' => 'Space category',
+      'content' => '<p>You shouldn\'t need to change this. If you feel like you do, please write to <a href="mailto:help@humanitarianresponse.info">help@humanitarianresponse.info</a> before.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    4 => array(
+      'selector' => '#edit-field-image',
+      'path' => '',
+      'placement' => 'top',
+      'title' => 'Space icon',
+      'content' => '<p>You shouldn\'t need to change this. If you feel like you do, please write to <a href="mailto:help@humanitarianresponse.info">help@humanitarianresponse.info</a> before.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    5 => array(
+      'selector' => '#edit-og-menu',
+      'path' => '',
+      'placement' => 'top',
+      'title' => 'Space menu',
+      'content' => '<p>You shouldn\'t need to change this. If you feel like you do, please write to <a href="mailto:help@humanitarianresponse.info">help@humanitarianresponse.info</a> before.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    6 => array(
+      'selector' => '#edit-og-roles-permissions',
+      'path' => '',
+      'placement' => 'top',
+      'title' => 'Space roles and permissions',
+      'content' => '<p>You shouldn\'t need to change this. If you feel like you do, please write to <a href="mailto:help@humanitarianresponse.info">help@humanitarianresponse.info</a> before.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    7 => array(
+      'selector' => '#edit-group-access',
+      'path' => '',
+      'placement' => 'top',
+      'title' => 'Space visibility',
+      'content' => '<p>HumanitarianResponse gives you the possibility to have private and public spaces. Private spaces are only visible by members of the space. You shouldn\'t need to change this, however, if you want us to create a private space for you and your team at some point, please let us know by writing to <a href="mailto:help@humanitarianresponse.info">help@humanitarianresponse.info</a>.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    8 => array(
+      'selector' => '#edit-body',
+      'path' => '',
+      'placement' => 'top',
+      'title' => 'Space body',
+      'content' => '<p>Enter here some text that you would like to see on the home page of your space.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    9 => array(
+      'selector' => '#edit-field-website',
+      'path' => '',
+      'placement' => 'top',
+      'title' => 'Space Website',
+      'content' => '<p>You shouldn\'t need to change this. If you feel like you do, please write to <a href="mailto:help@humanitarianresponse.info">help@humanitarianresponse.info</a> before.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    10 => array(
+      'selector' => '#edit-field-email',
+      'path' => '',
+      'placement' => 'top',
+      'title' => 'Space Email',
+      'content' => '',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+  );
+  $export['edit_tab'] = $bootstrap_tour;
+
+  $bootstrap_tour = new stdClass();
+  $bootstrap_tour->disabled = FALSE; /* Edit this to true to make a default bootstrap_tour disabled initially */
+  $bootstrap_tour->api_version = 1;
   $bootstrap_tour->name = 'i_can_not_login';
   $bootstrap_tour->title = 'I can not login';
   $bootstrap_tour->roles = '1';
@@ -209,6 +433,26 @@ function hr_help_default_bootstrap_tour() {
   $bootstrap_tour = new stdClass();
   $bootstrap_tour->disabled = FALSE; /* Edit this to true to make a default bootstrap_tour disabled initially */
   $bootstrap_tour->api_version = 1;
+  $bootstrap_tour->name = 'managing_a_space';
+  $bootstrap_tour->title = 'Managing a space';
+  $bootstrap_tour->roles = '2';
+  $bootstrap_tour->autorun = 0;
+  $bootstrap_tour->description = '';
+  $bootstrap_tour->steps = array(
+    0 => array(
+      'selector' => '',
+      'path' => 'sandbox',
+      'placement' => 'top',
+      'title' => 'How to manage a space ?',
+      'content' => '<p>This tour will walk you through the different options you have when you are a manager of a space. Go on to Anatomy of a space.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+  );
+  $export['managing_a_space'] = $bootstrap_tour;
+
+  $bootstrap_tour = new stdClass();
+  $bootstrap_tour->disabled = FALSE; /* Edit this to true to make a default bootstrap_tour disabled initially */
+  $bootstrap_tour->api_version = 1;
   $bootstrap_tour->name = 'registering_on_humanitarianresponse';
   $bootstrap_tour->title = 'Registering on Humanitarianresponse';
   $bootstrap_tour->roles = '1';
@@ -305,6 +549,90 @@ function hr_help_default_bootstrap_tour() {
     ),
   );
   $export['registering_on_humanitarianresponse'] = $bootstrap_tour;
+
+  $bootstrap_tour = new stdClass();
+  $bootstrap_tour->disabled = FALSE; /* Edit this to true to make a default bootstrap_tour disabled initially */
+  $bootstrap_tour->api_version = 1;
+  $bootstrap_tour->name = 'space_functionalities';
+  $bootstrap_tour->title = 'Space Functionalities';
+  $bootstrap_tour->roles = '2';
+  $bootstrap_tour->autorun = 0;
+  $bootstrap_tour->description = '';
+  $bootstrap_tour->steps = array(
+    0 => array(
+      'selector' => '',
+      'path' => 'sandbox',
+      'placement' => 'top',
+      'title' => 'Space Functionalities',
+      'content' => '<p>This tour will walk you through the different functionalities of a space, showing you how to edit menu items and how to add people to your space.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    1 => array(
+      'selector' => '',
+      'path' => 'sandbox/group',
+      'placement' => 'top',
+      'title' => 'The Group Tab',
+      'content' => '<p>From this tab, you can add people, select the features activated on your space or manage the menu items. Let\'s start with the "Features" page.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    2 => array(
+      'selector' => '',
+      'path' => 'group/node/9821/admin/features',
+      'placement' => 'top',
+      'title' => 'Space features',
+      'content' => '<p>From here you can enable or disable the features of your space. These features drive the menu item that your visitors will see in the horizontal menu of your space.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    3 => array(
+      'selector' => '',
+      'path' => 'group/node/9821/admin/people/add-user',
+      'placement' => 'top',
+      'title' => 'Adding people',
+      'content' => '<p>To add people as members of your space, select their username, chose their role (leave their role empty if they shouldn\'t have any role) and click on "Add users". This will effectively make them a member of your space.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    4 => array(
+      'selector' => '',
+      'path' => 'sandbox/people',
+      'placement' => 'top',
+      'title' => 'The People page',
+      'content' => '<p>When you make people members of your space, they will show up to your visitors in the "People" page of your space, assuming you have activated this feature.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    5 => array(
+      'selector' => '',
+      'path' => 'group/node/9821/admin/people',
+      'placement' => 'top',
+      'title' => 'Managing people',
+      'content' => '<p>You can manage the members of your space from this page. Modify their roles, remove them from your space etc...</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    6 => array(
+      'selector' => '',
+      'path' => 'group/node/9821/admin/menus',
+      'placement' => 'top',
+      'title' => 'Managing the menu',
+      'content' => '<p>From this page, you can manage the vertical menu that appears on the right hand side of your space. Add links, edit them, change the order in which they appear.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    7 => array(
+      'selector' => '',
+      'path' => 'group/node/9821/admin/menus/menu-og-9821/add',
+      'placement' => 'top',
+      'title' => 'Adding a menu link',
+      'content' => '<p>To add a menu link, you will be presented with this form. From here you can enter the menu link title, its path and select a few options. If you want to enter a menu item with no link (in order to separate your menu items), in the path field, enter <em>&lt;nolink&gt;</em> and make sure that you check the "Show as expanded" checkbox.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    8 => array(
+      'selector' => '',
+      'path' => 'sandbox/group',
+      'placement' => 'top',
+      'title' => 'That\'s it !',
+      'content' => '<p>That\'s it for the space functionalities. You should now be able to manage your space menu, manage members within your space and enable/disable features. If you still have questions, feel free to write to <a href="mailto:help@humanitarianresponse.info">help@humanitarianresponse.info</a>.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+  );
+  $export['space_functionalities'] = $bootstrap_tour;
 
   return $export;
 }
