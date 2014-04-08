@@ -76,7 +76,7 @@ function hr_help_default_bootstrap_tour() {
       'path' => '',
       'placement' => 'top',
       'title' => 'Enter the Sandbox space',
-      'content' => '<p>Here is the sandbox space, which allows you, as a space manager, to play with a space features without breaking anything on your own space. Let\'s see how it is structured.</p>',
+      'content' => '<p>Here is the sandbox space, which allows you, as a space manager, to experiment functionalities without breaking anything on your own space. Let\'s see how it is structured.</p>',
       'format' => 'panopoly_wysiwyg_text',
     ),
     2 => array(
@@ -92,9 +92,9 @@ function hr_help_default_bootstrap_tour() {
       'path' => '',
       'placement' => 'bottom',
       'title' => 'Horizontal menu',
-      'content' => '<p>The horizontal menu gives your visitors access to the different standard features provided by the space. These features can be activated or deactivated for each space, which is why you won\'t find the same set of features on each space.</p>
-<p>The layout and structure of these pages is standard amongst all spaces and can not be customized. The reason for this is to allow each visitor to find the same kind of structure across all spaces.</p>
-<p>You can NOT customize this menu. The links are enabled or disabled by enabling or disabling the features available for your space.</p>',
+      'content' => '<p>The horizontal menu gives your visitors access to the different standard features provided by the space. These features can be activated or deactivated for each space.</p>
+<p>Therefore, you can NOT customize this menu. The links are activated by enabling or disabling the features available for your space.</p>
+<p>The layout and structure of these pages is standard amongst all spaces and can not be customized. The reason for this is to allow each visitor to find the same structure across all spaces.</p>',
       'format' => 'panopoly_wysiwyg_text',
     ),
     4 => array(
@@ -128,7 +128,7 @@ function hr_help_default_bootstrap_tour() {
       'path' => '',
       'placement' => 'top',
       'title' => 'That\'s it !',
-      'content' => '<p>That\'s it for this tour. To understand how to customize the different elements presented in this tour (ie social media links, Mailchimp, menu etc...), follow the "Edit tab" tour.</p>',
+      'content' => '<p>That\'s it for this tour. To understand how to customize the different elements presented in this tour (ie social media links, Mailchimp, menu etc...), follow the <a href="/sandbox?tour=edit_tab">Edit tab</a> tour.</p>',
       'format' => 'panopoly_wysiwyg_text',
     ),
   );
@@ -144,7 +144,7 @@ function hr_help_default_bootstrap_tour() {
   $bootstrap_tour->description = '';
   $bootstrap_tour->steps = array(
     0 => array(
-      'selector' => '.nav-tabs .primary',
+      'selector' => '#page-header .tabs',
       'path' => 'sandbox',
       'placement' => 'top',
       'title' => 'Edit tab',
