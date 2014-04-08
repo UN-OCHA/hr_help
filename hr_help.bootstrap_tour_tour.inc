@@ -613,13 +613,21 @@ function hr_help_default_bootstrap_tour() {
     ),
     3 => array(
       'selector' => '',
+      'path' => 'sandbox/group',
+      'placement' => 'top',
+      'title' => 'Adding people',
+      'content' => '<p>Let\'s see now how you can make people members of your space, by clicking the "Add people" link.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    4 => array(
+      'selector' => '',
       'path' => 'group/node/1506/admin/people/add-user',
       'placement' => 'top',
       'title' => 'Adding people',
       'content' => '<p>To add people as members of your space, select their username, chose their role (leave their role empty if they shouldn\'t have any role) and click on "Add users". This will effectively make them a member of your space.</p>',
       'format' => 'panopoly_wysiwyg_text',
     ),
-    4 => array(
+    5 => array(
       'selector' => '',
       'path' => 'sandbox/people',
       'placement' => 'top',
@@ -627,7 +635,15 @@ function hr_help_default_bootstrap_tour() {
       'content' => '<p>When you make people members of your space, they will show up to your visitors in the "People" page of your space, assuming you have activated this feature.</p>',
       'format' => 'panopoly_wysiwyg_text',
     ),
-    5 => array(
+    6 => array(
+      'selector' => '',
+      'path' => 'sandbox/group',
+      'placement' => 'top',
+      'title' => 'Managing people',
+      'content' => '<p>Let\'s see now how you can manage the members of your space, by clicking the "People" link.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    7 => array(
       'selector' => '',
       'path' => 'group/node/1506/admin/people',
       'placement' => 'top',
@@ -635,15 +651,23 @@ function hr_help_default_bootstrap_tour() {
       'content' => '<p>You can manage the members of your space from this page. Modify their roles, remove them from your space etc...</p>',
       'format' => 'panopoly_wysiwyg_text',
     ),
-    6 => array(
+    8 => array(
+      'selector' => '',
+      'path' => 'sandbox/group',
+      'placement' => 'top',
+      'title' => 'Managing menu items',
+      'content' => '<p>Let\'s see now how you can manage the vertical menu of your space, by clicking the "Menus" link.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    9 => array(
       'selector' => '',
       'path' => 'group/node/1506/admin/menus',
       'placement' => 'top',
       'title' => 'Managing the menu',
-      'content' => '<p>From this page, you can manage the vertical menu that appears on the right hand side of your space. Add links, edit them, change the order in which they appear.</p>',
+      'content' => '<p>From this page, you can manage the vertical menu that appears on the right hand side of your space. Add links, edit them, change the order in which they appear. To add a link, click on the "add link" link.</p>',
       'format' => 'panopoly_wysiwyg_text',
     ),
-    7 => array(
+    10 => array(
       'selector' => '',
       'path' => 'group/node/1506/admin/menus/menu-og-1506/add',
       'placement' => 'top',
@@ -651,7 +675,7 @@ function hr_help_default_bootstrap_tour() {
       'content' => '<p>To add a menu link, you will be presented with this form. From here you can enter the menu link title, its path and select a few options. If you want to enter a menu item with no link (in order to separate your menu items), in the path field, enter <em>&lt;nolink&gt;</em> and make sure that you check the "Show as expanded" checkbox.</p>',
       'format' => 'panopoly_wysiwyg_text',
     ),
-    8 => array(
+    11 => array(
       'selector' => '',
       'path' => 'sandbox/group',
       'placement' => 'top',
