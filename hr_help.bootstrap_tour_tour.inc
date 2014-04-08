@@ -48,7 +48,8 @@ function hr_help_default_bootstrap_tour() {
       'path' => 'sandbox/content',
       'placement' => 'top',
       'title' => 'Viewing content',
-      'content' => '<p>To find the content you want to edit, you can navigate directly within the space, or you can use this "Content" tab, to filter the content by type.</p>',
+      'content' => '<p>To find the content you want to edit, you can navigate directly within the space, or you can use this "Content" tab, to filter the content by type.</p>
+<p>To keep learning how to manage a space, follow the <a href="/sandbox?tour=space_functionalities">Space Functionalities</a> site tour.</p>',
       'format' => 'panopoly_wysiwyg_text',
     ),
   );
@@ -246,8 +247,7 @@ function hr_help_default_bootstrap_tour() {
       'title' => 'Mailchimp API key',
       'content' => '<p>Through this field, you can configure your space to automatically subscribe your visitors to your Mailchimp list whenever they click on the "Follow" button.</p>
 <p>To create a Mailchimp API key, login to your Mailchimp account and go to "Account Settings", click on the "Extras" tab and select "API keys". Create an API key and paste it in this field.</p>
-<p>Then, save your changes by clicking on the "Save" button at the bottom of this page, and come back to this Edit tab. You will see another field, which will allow you to select which Mailchimp list your followers should 
-automatically be subscribed to.</p>',
+<p>Then, save your changes by clicking on the "Save" button at the bottom of this page, and <strong>come back</strong> to this Edit tab. You will see another field, which will allow you to select which Mailchimp list your followers should automatically be subscribed to.</p>',
       'format' => 'panopoly_wysiwyg_text',
     ),
     13 => array(
@@ -255,7 +255,8 @@ automatically be subscribed to.</p>',
       'path' => '',
       'placement' => 'top',
       'title' => 'Save your changes',
-      'content' => '<p>Finally, save your changes by clicking on this button. To keep learning how to manage your space, follow the <a href="/sandbox?tour=add_content">Add content</a> site tour.</p>',
+      'content' => '<p>Finally, save your changes by clicking on this button.</p>
+<p>To keep learning how to manage your space, follow the <a href="/sandbox?tour=adding_content">Adding content</a> site tour.</p>',
       'format' => 'panopoly_wysiwyg_text',
     ),
   );
@@ -604,7 +605,7 @@ automatically be subscribed to.</p>',
     ),
     2 => array(
       'selector' => '',
-      'path' => 'group/node/9821/admin/features',
+      'path' => 'group/node/1506/admin/features',
       'placement' => 'top',
       'title' => 'Space features',
       'content' => '<p>From here you can enable or disable the features of your space. These features drive the menu item that your visitors will see in the horizontal menu of your space.</p>',
@@ -612,7 +613,7 @@ automatically be subscribed to.</p>',
     ),
     3 => array(
       'selector' => '',
-      'path' => 'group/node/9821/admin/people/add-user',
+      'path' => 'group/node/1506/admin/people/add-user',
       'placement' => 'top',
       'title' => 'Adding people',
       'content' => '<p>To add people as members of your space, select their username, chose their role (leave their role empty if they shouldn\'t have any role) and click on "Add users". This will effectively make them a member of your space.</p>',
@@ -628,7 +629,7 @@ automatically be subscribed to.</p>',
     ),
     5 => array(
       'selector' => '',
-      'path' => 'group/node/9821/admin/people',
+      'path' => 'group/node/1506/admin/people',
       'placement' => 'top',
       'title' => 'Managing people',
       'content' => '<p>You can manage the members of your space from this page. Modify their roles, remove them from your space etc...</p>',
@@ -636,7 +637,7 @@ automatically be subscribed to.</p>',
     ),
     6 => array(
       'selector' => '',
-      'path' => 'group/node/9821/admin/menus',
+      'path' => 'group/node/1506/admin/menus',
       'placement' => 'top',
       'title' => 'Managing the menu',
       'content' => '<p>From this page, you can manage the vertical menu that appears on the right hand side of your space. Add links, edit them, change the order in which they appear.</p>',
@@ -644,7 +645,7 @@ automatically be subscribed to.</p>',
     ),
     7 => array(
       'selector' => '',
-      'path' => 'group/node/9821/admin/menus/menu-og-9821/add',
+      'path' => 'group/node/1506/admin/menus/menu-og-1506/add',
       'placement' => 'top',
       'title' => 'Adding a menu link',
       'content' => '<p>To add a menu link, you will be presented with this form. From here you can enter the menu link title, its path and select a few options. If you want to enter a menu item with no link (in order to separate your menu items), in the path field, enter <em>&lt;nolink&gt;</em> and make sure that you check the "Show as expanded" checkbox.</p>',
