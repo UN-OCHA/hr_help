@@ -228,7 +228,34 @@ function hr_help_default_bootstrap_tour() {
       'path' => '',
       'placement' => 'top',
       'title' => 'Space Email',
-      'content' => '',
+      'content' => '<p>Enter here the contact email you wish to display for your space. This email will appear in the right hand side, above the vertical menu.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    11 => array(
+      'selector' => '#edit-field-social-media',
+      'path' => '',
+      'placement' => 'top',
+      'title' => 'Social media links',
+      'content' => '<p>Enter here the links to your social media sites (Facebook, Twitter etc...). These links will automatically be converted to icons and will appear on the right hand side of your space, below the email.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    12 => array(
+      'selector' => '#edit-field-mailchimp-api-key',
+      'path' => '',
+      'placement' => 'top',
+      'title' => 'Mailchimp API key',
+      'content' => '<p>Through this field, you can configure your space to automatically subscribe your visitors to your Mailchimp list whenever they click on the "Follow" button.</p>
+<p>To create a Mailchimp API key, login to your Mailchimp account and go to "Account Settings", click on the "Extras" tab and select "API keys". Create an API key and paste it in this field.</p>
+<p>Then, save your changes by clicking on the "Save" button at the bottom of this page, and come back to this Edit tab. You will see another field, which will allow you to select which Mailchimp list your followers should 
+automatically be subscribed to.</p>',
+      'format' => 'panopoly_wysiwyg_text',
+    ),
+    13 => array(
+      'selector' => '#edit-submit',
+      'path' => '',
+      'placement' => 'top',
+      'title' => 'Save your changes',
+      'content' => '<p>Finally, save your changes by clicking on this button. To keep learning how to manage your space, follow the <a href="/sandbox?tour=add_content">Add content</a> site tour.</p>',
       'format' => 'panopoly_wysiwyg_text',
     ),
   );
