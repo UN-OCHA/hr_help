@@ -464,7 +464,7 @@ function hr_help_default_bootstrap_tour() {
   $bootstrap_tour->name = 'managing_a_space';
   $bootstrap_tour->title = 'Managing a space';
   $bootstrap_tour->roles = '2';
-  $bootstrap_tour->autorun = 1;
+  $bootstrap_tour->autorun = 0;
   $bootstrap_tour->description = '';
   $bootstrap_tour->steps = array(
     0 => array(
