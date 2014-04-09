@@ -229,7 +229,7 @@ function hr_help_default_bootstrap_tour() {
       'path' => '',
       'placement' => 'top',
       'title' => 'Space Email',
-      'content' => '<p>Enter here the contact email you wish to display for your space. This email will appear in the right hand side, above the vertical menu.</p>',
+      'content' => '<p>Enter here the contact email you wish to display for your space. This email will appear in the left hand side, above the vertical menu.</p>',
       'format' => 'panopoly_wysiwyg_text',
     ),
     11 => array(
@@ -237,7 +237,7 @@ function hr_help_default_bootstrap_tour() {
       'path' => '',
       'placement' => 'top',
       'title' => 'Social media links',
-      'content' => '<p>Enter here the links to your social media sites (Facebook, Twitter etc...). These links will automatically be converted to icons and will appear on the right hand side of your space, below the email.</p>',
+      'content' => '<p>Enter here the links to your social media sites (Facebook, Twitter etc...). These links will automatically be converted to icons and will appear on the left hand side of your space, below the email.</p>',
       'format' => 'panopoly_wysiwyg_text',
     ),
     12 => array(
@@ -664,7 +664,7 @@ function hr_help_default_bootstrap_tour() {
       'path' => 'group/node/1506/admin/menus',
       'placement' => 'top',
       'title' => 'Managing the menu',
-      'content' => '<p>From this page, you can manage the vertical menu that appears on the right hand side of your space. Add links, edit them, change the order in which they appear. To add a link, click on the "add link" link.</p>',
+      'content' => '<p>From this page, you can manage the vertical menu that appears on the left hand side of your space. Add links, edit them, change the order in which they appear. To add a link, click on the "add link" link.</p>',
       'format' => 'panopoly_wysiwyg_text',
     ),
     10 => array(
