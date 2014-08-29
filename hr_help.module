@@ -47,6 +47,7 @@ function hr_help_block_view($delta = '') {
             $block['content'] .= '<li>'.l(t($tour->title), $tour->steps[0]['path'], array('query' => array('tour' => $key))).'</li>';
           }
         }
+        $block['content'] .= '<li>'.l(t('User Guidelines'), 'help').'</li>';
         $block['content'] .= '</ul></div>';
       }
       break;
